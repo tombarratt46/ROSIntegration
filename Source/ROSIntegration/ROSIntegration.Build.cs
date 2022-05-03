@@ -38,7 +38,6 @@ public class ROSIntegration : ModuleRules
 		
 		PrivateIncludePaths.Add(Path.Combine(ModuleDirectory, "Private"));
     		PrivateIncludePaths.Add(Path.Combine(ModuleDirectory, "Private/rosbridge2cpp"));
-
 		PublicDependencyModuleNames.AddRange(
 			new string[]
 			{
@@ -53,8 +52,10 @@ public class ROSIntegration : ModuleRules
 		PrivateDependencyModuleNames.AddRange(
 			new string[]
 			{
+				"Core",
 				"CoreUObject",
 				"Engine",
+				"RenderCore",
 				"Sockets",
 				"Networking"
 				// ... add private dependencies that you statically link with here ...

@@ -6,6 +6,7 @@
 #include <Runtime/Launch/Resources/Version.h>
 #include "ROSIntegrationCore.h"
 
+
 #include "ROSIntegrationGameInstance.generated.h"
 
 UCLASS()
